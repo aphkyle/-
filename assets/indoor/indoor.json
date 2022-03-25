@@ -1,0 +1,15 @@
+{ "columns":8,
+ "image":"indoor.png",
+ "imageheight":432,
+ "imagewidth":128,
+ "margin":0,
+ "name":"indoor",
+ "spacing":0,
+ "tilecount":216,
+ "tiledversion":"1.8.2",
+ "tileheight":16,
+ "tilewidth":16,
+ "transparentcolor":"#ffffff",
+ "type":"tileset",
+ "version":"1.8"
+}

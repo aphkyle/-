@@ -22,7 +22,6 @@ class Menu(arcade.View):
             "border_width": 2,
             "border_color": None,
             "bg_color": (21, 19, 21),
-
             "bg_color_pressed": arcade.color.WHITE,
             "border_color_pressed": arcade.color.WHITE,
             "font_color_pressed": arcade.color.BLACK,
@@ -35,7 +34,6 @@ class Menu(arcade.View):
             "border_width": 2,
             "border_color": None,
             "bg_color": arcade.color.REDWOOD,
-
             "bg_color_pressed": arcade.color.WHITE,
             "border_color_pressed": arcade.color.RED,
             "font_color_pressed": arcade.color.RED,
@@ -43,22 +41,27 @@ class Menu(arcade.View):
 
         self.v_box = arcade.gui.UIBoxLayout(space_between=20)
 
-        start_button = arcade.gui.UIFlatButton(text="START", width=200, style=default_style)
+        start_button = arcade.gui.UIFlatButton(
+            text="START", width=200, style=default_style
+        )
         quit_button = arcade.gui.UIFlatButton(text="QUIT", width=200, style=red_style)
 
-        ui_text_label = arcade.gui.UITextArea(text=SCREEN_TITLE,
-                                              width=900,
-                                              height=80,
-                                              font_size=72,
-                                              font_name=("Kenney Pixel", "arial"))
+        ui_text_label = arcade.gui.UITextArea(
+            text=SCREEN_TITLE,
+            width=900,
+            height=80,
+            font_size=72,
+            font_name=("Kenney Pixel", "Arial"),
+        )
 
-        self.v_box.add(ui_text_label.with_space_around(bottom=0))
+        self.v_box.add(ui_text_label.with_space_around(left=400))
         self.v_box.add(start_button)
         self.v_box.add(quit_button)
 
         @start_button.event("on_click")
         def on_click_start(event):
             self.window.show_view(game.Game())
+
         @quit_button.event("on_click")
         def on_click_quit(event):
             webbrowser.open_new_tab("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
@@ -66,9 +69,8 @@ class Menu(arcade.View):
 
         self.manager.add(
             arcade.gui.UIAnchorWidget(
-                anchor_x="center_x",
-                anchor_y="center_y",
-                child=self.v_box)
+                anchor_x="center_x", anchor_y="center_y", child=self.v_box
+            )
         )
 
     def on_draw(self):
