@@ -19,6 +19,6 @@ the original assets can be found in:
 
 Much thanks to this person, it helped a lot during the development
 
-the original assets can be found in:
+the original assets is in:
 
-can be found in `https://ninjikin.itch.io/treasure`)
+[https://ninjikin.itch.io/treasure](https://ninjikin.itch.io/treasure)
