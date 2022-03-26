@@ -9,7 +9,7 @@ Credit is not required, but much appreciated if you use this in your own project
 
 Much thanks to this person, it helped a lot during the development
 
-the original assets can be found in:
+the original assets is in:
 
 [https://tilation.itch.io/16x16-small-indoor-tileset](https://tilation.itch.io/16x16-small-indoor-tileset)
 
