@@ -1,6 +1,8 @@
 # The `random` directory is made by:
 me (aph#8103 discord)
-Credit is not required, but much appreciated
+
+Credit is not required, but much appreciated if you use this in your own projects
+
 # The `indoor` directory is made by:
 
 [https://tilation.itch.io/](https://tilation.itch.io/)
