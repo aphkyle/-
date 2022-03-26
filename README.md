@@ -15,6 +15,6 @@ Who's the actual evil twin? No one knows.
 # Development
 - [x] Basic Game Menu
 - [ ] Story Load
-- [ ] Game
-- [ ] Game over
-- [ ] Win
+- [x] Game
+- [x] Game over
+- [x] Win
