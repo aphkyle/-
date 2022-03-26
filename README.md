@@ -8,7 +8,7 @@ They took away your life, all your money is now theirs.
 
 Your task is to steal everything from their house to take back your revenge.
 
-Who's the actual evil twin? No one knows.
+Who's more evil? I guess you both are.
 
 # Development
 - [x] Basic Game Menu
