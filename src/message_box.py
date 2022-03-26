@@ -38,6 +38,7 @@ class UIMessageBox(UIMouseFilterMixin, UIAnchorWidget):
         button_group = UIBoxLayout(vertical=False)
         for button_text in buttons:
             button = UIFlatButton(
+                width=200 if button_text == 'LOCKPICK' else 100,
                 text=button_text, style={"font_size": 36, "font_name": ("Kenney Pixel")}
             )
             button_group.add(button.with_space_around(left=10))

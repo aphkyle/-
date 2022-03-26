@@ -22,3 +22,15 @@ Much thanks to this person, it helped a lot during the development
 the original assets is in:
 
 [https://ninjikin.itch.io/treasure](https://ninjikin.itch.io/treasure)
+
+# The `sfx` directory is made by:
+
+[https://freesound.org/people/GodofPH/](https://freesound.org/people/GodofPH/)
+
+The original assets is in:
+
+[https://freesound.org/people/GodofPH/sounds/114250/](https://freesound.org/people/GodofPH/sounds/114250/)
+
+and
+
+[https://freesound.org/people/FranciscoPadilla/](https://freesound.org/people/FranciscoPadilla/sounds/22763/)
