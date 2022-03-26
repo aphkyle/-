@@ -10,11 +10,12 @@ They took away your life, all your money is now theirs.
 
 Your task is to steal everything from their house to take back your revenge.
 
-Who's more evil? I guess you both are.
+Who's evil? I guess you both are.
 
 # Development
 - [x] Basic Game Menu
-- [ ] Story Load
+- [x] Story Load
 - [x] Game
 - [x] Game over
 - [x] Win
+DONE, YAY
