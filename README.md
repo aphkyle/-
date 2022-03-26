@@ -3,6 +3,12 @@
 
 Do check [CREDITS.md](CREDITS.md)! Those really helped me a lot!
 
+# Run the game
+
+`cd smiling_imp`
+`pip install -r requirements.txt` (sorry, idk how to use poetry/venv)
+`python -m src`
+
 # Story
 You, J. Doe were a twin of a rich person - J. Dope.
 
